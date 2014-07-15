@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+
+body {
+		width: 1023px;
+		margin: auto;
+		background-image: url(../img/syabon.jpg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-attachment: fixed; 
+	}
+/*=====================
+header
+======================*/
+h1 {
+		border-bottom: #a5cdff 50px solid;
+		background-image: url(../img/ausukuro.jpg);
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding:113px 30px 130px;
+		font-size: 35px;
+		font-weight: 200;
+	}
+ #header h2 {
+		border-top: #c8e1ff 20px solid;
+		border-bottom: #e0eeff 7px solid;
+		text-align: center;
+		margin-top: 15px;
+		color: #6e9cdc;
+	}
+.gnavi li {
+		float: left;
+		margin-left: 90px;
+		margin-right: 7px;
+		list-style-type: none;
+		width: 130px;
+		border-radius: 100px;
+		text-align: center;
+	}
+.gnavi {
+	*zoom: 1;
+	}
+.gnavi:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+.gnavi li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 53px 0 53px 0;
+}
+.gnavi li a:hover {
+		width: 130px;
+		border-radius: 100px;
+		background-color: lightskyblue;
+		text-align: center;
+}
+.gnavi {
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+/*=====================
+#content
+=====================*/
+
+#content {
+		padding-bottom: 20px;
+		border-top:  #c8e1ff 10px solid;
+		border-bottom: #a5cdff 3px solid;
+		margin-bottom: 50px;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+#content h2 {
+		color: #2a2c74;
+		text-align: center;
+	}
+.link,
+.osirase {
+		padding-left: 30px;
+	}
+.osirase {
+		padding-top: 100px;
+		padding-left: 200px;
+	}
+.link {
+		border-top:  #c8e1ff 2px solid;
+		border-bottom: #a5cdff 5px solid;
+		margin-bottom: 10px;
+		
+	}
+#content p {
+		color: #7576a8;
+	}
+a {
+		text-decoration: none;
+	}
+
+/*==============================
+#footer
+==============================*/
+#footer {
+		border-bottom: #a5cdff 50px solid;
+	}
+.copyright {
+		text-align: right;
+		color: deepskyblue;
+		font-weight: 200;
+		margin-right: 10px;
+		margin-bottom: 15px;
+		width: 1023px;
+		border-top: #e0eeff 7px solid;
+		border-bottom: #c8e1ff 20px solid;
+		}

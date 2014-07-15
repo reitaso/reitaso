@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+
+body {
+		width: 1023px;
+		margin: auto;
+		background-image: url(../img/syabon.jpg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-attachment: fixed; 
+	}
+/*=====================
+header
+======================*/
+h1 {
+		border-bottom: #a5cdff 50px solid;
+		background-image: url(../img/ausukuro.jpg);
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding:113px 30px 130px;
+		font-size: 35px;
+		font-weight: 200;
+	}
+ #header h2 {
+ 		border-top: #c8e1ff 20px solid;
+		border-bottom: #e0eeff 7px solid;
+		text-align: center;
+		margin-top: 15px;
+		color: #6e9cdc;
+	}
+.gnavi li {
+		float: left;
+		margin-left: 90px;
+		margin-right: 7px;
+		list-style-type: none;
+		width: 130px;
+		border-radius: 100px;
+		text-align: center;
+	}
+.gnavi {
+	*zoom: 1;
+	}
+.gnavi:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+.gnavi li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 53px 0 53px 0;
+}
+.gnavi li a:hover {
+		width: 130px;
+		border-radius: 100px;
+		background-color: lightskyblue;
+		text-align: center;
+}
+.gnavi {
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+/*=====================
+#content
+=====================*/
+#content {
+		width: 1023px;
+		padding-bottom: 200px;
+	}
+#content h2 {
+		padding:113px 30px 110px;
+		font-size: 35px;
+		font-weight: 200;
+		color: #2a2c74;
+	}
+.menu {
+		background-image: url(../img/kongou.jpg);
+		background-repeat: no-repeat;
+		margin-top: 30px;
+		padding-bottom: 243px;
+	}
+.photo {
+
+		border-left: 20px solid #53baad;
+		border-right: 20px solid #53baad;
+		background-color: rgba(255, 255, 255, 0.5);
+
+}
+.photo ul {
+		padding-top: 30px;
+		border-left: 12px dotted #93f1e5;
+		border-right: 11px dotted #93f1e5;
+
+}
+.photo ul li  {
+		float: left;
+		width: 200px;
+		padding:  0 20px 20px;
+		list-style-type: none;
+	}
+ul {
+	*zoom: 1;
+	}
+ul:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+.back {
+		background-image: url(../img/kongouosiri.jpg);
+		background-repeat: no-repeat;
+	}
+.next,
+.prev {
+		padding-bottom: 180px;
+		padding-top: 150px;
+		font-size: 25px;
+		font-weight: 200;
+		float: left;
+		width: 100px;
+	}
+.back {
+	*zoom: 1;
+	}
+.back:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+
+.next {
+		padding-left: 750px ;
+	}
+.prev {
+		padding-left: 30px;
+	}
+	a {
+		text-decoration: none;
+	}
+/*==============================
+#footer
+==============================*/
+#footer {
+		border-bottom: #a5cdff 50px solid;
+	}
+.copyright {
+		text-align: right;
+		color: deepskyblue;
+		font-weight: 200;
+		margin-right: 10px;
+		margin-bottom: 15px;
+		width: 1023px;
+		border-top: #e0eeff 7px solid;
+		border-bottom: #c8e1ff 20px solid;
+		}

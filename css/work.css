@@ -1,0 +1,87 @@
+/*-----------------
+#work
+----------------*/
+body#work {
+	background: none;
+	margin:  auto;
+	width: 800px;
+	background-position: left top;
+	background-image: url(../images/cheku.png);
+}
+#work .arts {
+	border: #717171 7px solid;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+#work img {
+	vertical-align: bottom;
+	border: white 4px solid;
+}
+#work h1 {
+	text-align: center;
+	padding: 10px 0;
+	color: #515151;
+	font-family: monospace;
+}
+#work p {
+	float: left;
+	margin-left: 10px;
+}
+#work .literary {
+	width: 300px;
+	padding-left: 10px;
+}
+ body {
+	*zoom: 1;
+	}
+ body:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+#work .mira {
+	margin-top: 20px;
+	margin-left: 65px;
+}
+.sub {
+	width: 650px;
+	margin: auto;
+}
+/*-----------------
+#form
+----------------*/
+body#form {
+	background-image: url(../images/cheku.png);
+}
+#form {
+	width: 700px;
+	background: none;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+#form h1 {
+	color: #515151;
+	font-family: fantasy;
+}
+.forname {
+	border: 2px #717171 solid;
+	width: 500px;
+	height: 20px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+.forcome {
+	border: 2px #717171 solid;
+	width: 500px;
+	height: 200px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+#form h2 {
+	border-bottom: 1px #717171 solid;
+	width: 200px;
+	margin-bottom: 10px;
+	font-family: fantasy;
+	font-size: 19px;
+}

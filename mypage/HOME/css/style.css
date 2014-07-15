@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+* {
+	font-family: fantasy;
+	color: #005889;
+	}
+body {
+		width: 1023px;
+		margin: auto;
+		background-image: url(../img/syabon.jpg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-attachment: fixed; 
+	}
+/*=====================
+header
+======================*/
+h1 {
+		border-bottom: #a5cdff 50px solid;
+		background-image: url(../img/ausukuro.jpg);
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding:113px 30px 130px;
+		font-size: 35px;
+		font-weight: 200;
+	}
+ #header h2 {
+		border-top: #c8e1ff 20px solid;
+		border-bottom: #e0eeff 7px solid;
+		text-align: center;
+		margin-top: 15px;
+		color: #6e9cdc;
+	}
+.gnavi li {
+		float: left;
+		margin-left: 90px;
+		margin-right: 7px;
+		list-style-type: none;
+		width: 130px;
+		border-radius: 100px;
+		text-align: center;
+	}
+#content {
+	*zoom: 1;
+	}
+#content:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+.gnavi li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 53px 0 53px 0;
+}
+.gnavi li a:hover {
+		width: 130px;
+		border-radius: 100px;
+		background-color: lightskyblue;
+		text-align: center;
+}
+.gnavi {
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+/*=====================
+#content
+=====================*/
+
+#content {
+		padding-bottom: 200px;
+	}
+#diary {
+		background-color: lightskyblue;
+		float: left;
+		width: 350px;
+		border-radius: 240px;
+		font-size: 13px;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: 30px;
+		padding: 10px 27px;
+	}
+#pen {
+		float: left;
+	}
+#content {
+	*zoom: 1;
+	}
+#content:after {
+	clear: both;
+	display: block;
+	content: "";
+		}
+#diary h2 {
+		color: midnightblue;
+		font-weight: 200;
+		padding-top: 20px;
+	}
+#pen h2 {
+		color: midnightblue;
+		font-weight: 200;
+		width: 130px;
+		border-radius: 100px;
+		background-color: #c8e1ff;
+		padding: 45px 0 45px 0;
+		text-align: center;
+		margin: 260px 0 0 50px;
+		
+	}
+#diary h3 {
+		color: aliceblue;
+		font-weight: 100;
+	}
+#diary p {
+		color: steelblue;
+	}
+.next {
+		padding-bottom: 20px;
+	}
+a {
+		text-decoration: none;
+	}
+#box1  {
+		padding: 0 40px;
+	}
+	#box3  {
+		padding: 0 45px;
+	}
+#box2 {
+		padding: 0 10px;
+}
+/*==============================
+#footer
+==============================*/
+#footer {
+		border-bottom: #a5cdff 50px solid;
+	}
+.copyright {
+		text-align: right;
+		color: deepskyblue;
+		font-weight: 200;
+		margin-right: 10px;
+		margin-bottom: 15px;
+		width: 1023px;
+		border-top: #e0eeff 7px solid;
+		border-bottom: #c8e1ff 20px solid;
+		}
